@@ -1,3 +1,5 @@
+package TwoPassAssembler.Data;
+
 import java.util.HashMap;
 
 public class Table {

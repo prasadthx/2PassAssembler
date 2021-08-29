@@ -1,3 +1,7 @@
+package TwoPassAssembler.Passes;
+
+import TwoPassAssembler.Data.Table;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;

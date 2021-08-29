@@ -1,6 +1,6 @@
-import java.util.HashMap;
+package TwoPassAssembler.Data;
 
-import javax.lang.model.util.ElementScanner14;
+import java.util.HashMap;
 
 public class DataTable {
     HashMap<String, String> AD, IS, CC, DL, RG;

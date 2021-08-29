@@ -1,3 +1,8 @@
+package TwoPassAssembler.Passes;
+
+import TwoPassAssembler.Data.DataTable;
+import TwoPassAssembler.Data.Table;
+
 import java.io.File;
 import java.util.*;
 import java.util.HashMap;
@@ -29,10 +34,10 @@ public class PassOne {
 
         boolean endCode = false;
 
-        Table SymbolTable = new Table();
-        Table LiteralTable = new Table();
+        public Table SymbolTable = new Table();
+        public Table LiteralTable = new Table();
         
-        ArrayList<Integer> PoolTable = new ArrayList<Integer>();
+        public ArrayList<Integer> PoolTable = new ArrayList<Integer>();
 
         public void createIntermediateCode(){
             try {
